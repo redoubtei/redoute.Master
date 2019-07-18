@@ -3,9 +3,83 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.UI", "01.UI", "{3620311E-5108-4E65-ADAE-C8AD256F1CB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Services", "02.Services", "{631B39B9-F498-4D42-9250-2CEA3FF161A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Repositonry", "03.Repositonry", "{B5B0CBFF-44D3-44D2-9E50-66E32F944C65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Domain", "04.Domain", "{AD4D8414-FFA5-4751-AAED-71916552D12C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Infrastructure", "05.Infrastructure", "{9022D331-3FD6-4A3D-8FFC-0B140B4F3699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.Model", "Redoute.Actualsis.Model\Redoute.Actualsis.Model.csproj", "{8CBBA7E1-2AD1-419F-8EC2-FE5B3DC60475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.Infrastructure", "Redoute.Actualsis.Infrastructure\Redoute.Actualsis.Infrastructure.csproj", "{83E70049-D035-4A0D-B992-AA6E7B5300B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.Domain", "Redoute.Actualsis.Domain\Redoute.Actualsis.Domain.csproj", "{012BF2D8-987D-4993-83D6-5F27A9E70F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.IRepositonry", "Redoute.Actualsis.IRepositonry\Redoute.Actualsis.IRepositonry.csproj", "{F802571D-39AB-451D-90F5-193D04DA56DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.Repositonry", "Redoute.Actualsis.Repositonry\Redoute.Actualsis.Repositonry.csproj", "{A5294F16-1E72-4D07-88E7-899F12132192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.IServices", "Redoute.Actualsis.IServices\Redoute.Actualsis.IServices.csproj", "{E73713EF-8D30-4A7F-8CEF-A87580F53FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.Services", "Redoute.Actualsis.Services\Redoute.Actualsis.Services.csproj", "{D49475DA-19AD-4906-A3C9-3F4C83CE6CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.Admin", "Redoute.Actualsis.Admin\Redoute.Actualsis.Admin.csproj", "{8C8EBF4F-7D2F-4266-8AFF-C3D7215B0B2E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CBBA7E1-2AD1-419F-8EC2-FE5B3DC60475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBBA7E1-2AD1-419F-8EC2-FE5B3DC60475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBBA7E1-2AD1-419F-8EC2-FE5B3DC60475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBBA7E1-2AD1-419F-8EC2-FE5B3DC60475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E70049-D035-4A0D-B992-AA6E7B5300B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E70049-D035-4A0D-B992-AA6E7B5300B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E70049-D035-4A0D-B992-AA6E7B5300B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E70049-D035-4A0D-B992-AA6E7B5300B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012BF2D8-987D-4993-83D6-5F27A9E70F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012BF2D8-987D-4993-83D6-5F27A9E70F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012BF2D8-987D-4993-83D6-5F27A9E70F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012BF2D8-987D-4993-83D6-5F27A9E70F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F802571D-39AB-451D-90F5-193D04DA56DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F802571D-39AB-451D-90F5-193D04DA56DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F802571D-39AB-451D-90F5-193D04DA56DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F802571D-39AB-451D-90F5-193D04DA56DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5294F16-1E72-4D07-88E7-899F12132192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5294F16-1E72-4D07-88E7-899F12132192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5294F16-1E72-4D07-88E7-899F12132192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5294F16-1E72-4D07-88E7-899F12132192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73713EF-8D30-4A7F-8CEF-A87580F53FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73713EF-8D30-4A7F-8CEF-A87580F53FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73713EF-8D30-4A7F-8CEF-A87580F53FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73713EF-8D30-4A7F-8CEF-A87580F53FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49475DA-19AD-4906-A3C9-3F4C83CE6CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49475DA-19AD-4906-A3C9-3F4C83CE6CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49475DA-19AD-4906-A3C9-3F4C83CE6CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49475DA-19AD-4906-A3C9-3F4C83CE6CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8EBF4F-7D2F-4266-8AFF-C3D7215B0B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8EBF4F-7D2F-4266-8AFF-C3D7215B0B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8EBF4F-7D2F-4266-8AFF-C3D7215B0B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8EBF4F-7D2F-4266-8AFF-C3D7215B0B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CBBA7E1-2AD1-419F-8EC2-FE5B3DC60475} = {AD4D8414-FFA5-4751-AAED-71916552D12C}
+		{83E70049-D035-4A0D-B992-AA6E7B5300B5} = {9022D331-3FD6-4A3D-8FFC-0B140B4F3699}
+		{012BF2D8-987D-4993-83D6-5F27A9E70F9B} = {AD4D8414-FFA5-4751-AAED-71916552D12C}
+		{F802571D-39AB-451D-90F5-193D04DA56DC} = {B5B0CBFF-44D3-44D2-9E50-66E32F944C65}
+		{A5294F16-1E72-4D07-88E7-899F12132192} = {B5B0CBFF-44D3-44D2-9E50-66E32F944C65}
+		{E73713EF-8D30-4A7F-8CEF-A87580F53FE5} = {631B39B9-F498-4D42-9250-2CEA3FF161A2}
+		{D49475DA-19AD-4906-A3C9-3F4C83CE6CFA} = {631B39B9-F498-4D42-9250-2CEA3FF161A2}
+		{8C8EBF4F-7D2F-4266-8AFF-C3D7215B0B2E} = {3620311E-5108-4E65-ADAE-C8AD256F1CB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E5E1722-C1A8-40CD-A50F-FA304F6E4CF9}
