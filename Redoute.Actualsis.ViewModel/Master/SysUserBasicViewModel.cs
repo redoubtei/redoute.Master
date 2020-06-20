@@ -12,7 +12,7 @@ namespace Redoute.Actualsis.ViewModel.Master
         [Display(Name = "用户名")]
         [Required(ErrorMessage = "请输入登陆名")]
         [StringLength(20, ErrorMessage = "用户名不能超长")]
-        [Remote("ValidateUserName", "SysUsers", "SiteManager", AdditionalFields = "Id,UserName", ErrorMessage = "用户已经被占用，请更换！")]
+        [Remote("ValidateUserName", "baseuser", "maseter", AdditionalFields = "Id,UserName", ErrorMessage = "请重新填写！")]
         public string Username { get; set; }
     }
 }
