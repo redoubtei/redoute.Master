@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Redoute.Actualsis.IServices;
+
 
 namespace Redoute.Actual.WebApi.Controllers
 {
@@ -10,10 +12,17 @@ namespace Redoute.Actual.WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly ISysUserService _usersServices;
+
+        public ValuesController(ISysUserService sysUserService)
+        {
+            _usersServices = sysUserService;
+        }
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            var r = _usersServices.Add(new Actualsis.Model.BaseUser());
             return new string[] { "value1", "value2" };
         }
 
