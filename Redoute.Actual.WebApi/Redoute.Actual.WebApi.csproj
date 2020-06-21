@@ -11,8 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Redoute.Actualsis.IRepositonry\Redoute.Actualsis.IRepositonry.csproj" />
     <ProjectReference Include="..\Redoute.Actualsis.IServices\Redoute.Actualsis.IServices.csproj" />
     <ProjectReference Include="..\Redoute.Actualsis.Model\Redoute.Actualsis.Model.csproj" />
+    <ProjectReference Include="..\Redoute.Actualsis.Repositonry\Redoute.Actualsis.Repositonry.csproj" />
+    <ProjectReference Include="..\Redoute.Actualsis.Services\Redoute.Actualsis.Services.csproj" />
     <ProjectReference Include="..\Redoute.Actualsis.ViewModel\Redoute.Actualsis.ViewModel.csproj" />
   </ItemGroup>
 

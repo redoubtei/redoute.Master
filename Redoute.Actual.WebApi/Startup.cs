@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Redoute.Actualsis.IServices;
+using Redoute.Actualsis.Model;
+using Redoute.Actualsis.Services.Master;
 
 namespace Redoute.Actual.WebApi
 {
@@ -25,6 +28,9 @@ namespace Redoute.Actual.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton(typeof(Actualsis.IRepositonry.IBasicRepository<>), typeof(Actualsis.Repositonry.BasicRepository<>));
+            services.AddSingleton<ISysUserService, SysUserService>();
+
             //返回json  大小写
             services.AddMvc().AddJsonOptions(op => op.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver());
 
