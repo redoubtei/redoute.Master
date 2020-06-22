@@ -13,7 +13,8 @@ namespace Redoute.Actualsis.Repositonry
     {
         public Task<bool> AddAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+
+            return null;
         }
 
         public Task AddRangeAsync(IEnumerable<TEntity> list)
