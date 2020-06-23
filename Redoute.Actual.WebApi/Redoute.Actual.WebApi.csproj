@@ -11,9 +11,11 @@
     <PackageReference Include="Autofac.Extras.DynamicProxy" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.15" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Redoute.Actualsis.Basic.Common\Redoute.Actualsis.Basic.Common.csproj" />
     <ProjectReference Include="..\Redoute.Actualsis.IRepositonry\Redoute.Actualsis.IRepositonry.csproj" />
     <ProjectReference Include="..\Redoute.Actualsis.IServices\Redoute.Actualsis.IServices.csproj" />
     <ProjectReference Include="..\Redoute.Actualsis.Model\Redoute.Actualsis.Model.csproj" />

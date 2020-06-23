@@ -23,6 +23,7 @@ namespace Redoute.Actual.WebApi.Controllers
         public ActionResult<IEnumerable<string>> Get()
         {
             var r = _usersServices.Add(new Actualsis.Model.BaseUser());
+          // var g= _usersServices.Query();
             return new string[] { "value1", "value2" };
         }
 

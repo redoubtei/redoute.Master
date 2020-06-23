@@ -9,10 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="mySqlSugarCore" Version="3.5.4" />
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.15" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Redoute.Actualsis.Basic.Common\Redoute.Actualsis.Basic.Common.csproj" />
     <ProjectReference Include="..\Redoute.Actualsis.IRepositonry\Redoute.Actualsis.IRepositonry.csproj" />
   </ItemGroup>
 

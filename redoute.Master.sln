@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redoute.Actualsis.Services"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redoute.Actualsis.Admin", "Redoute.Actualsis.Admin\Redoute.Actualsis.Admin.csproj", "{8C8EBF4F-7D2F-4266-8AFF-C3D7215B0B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.ViewModel", "Redoute.Actualsis.ViewModel\Redoute.Actualsis.ViewModel.csproj", "{948476F5-38AC-4F21-8EB2-0A42DB05E363}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redoute.Actualsis.ViewModel", "Redoute.Actualsis.ViewModel\Redoute.Actualsis.ViewModel.csproj", "{948476F5-38AC-4F21-8EB2-0A42DB05E363}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Applet", "06.Applet", "{742A82BA-0E0C-4E47-8B69-D4542F91F2DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actual.WebApi", "Redoute.Actual.WebApi\Redoute.Actual.WebApi.csproj", "{D9366447-AD40-4AD6-BC7A-F8A02CD000AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redoute.Actual.WebApi", "Redoute.Actual.WebApi\Redoute.Actual.WebApi.csproj", "{D9366447-AD40-4AD6-BC7A-F8A02CD000AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redoute.Actualsis.Basic.Common", "Redoute.Actualsis.Basic.Common\Redoute.Actualsis.Basic.Common.csproj", "{3ADFED1B-EAEF-40B1-9399-EC26982E6AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{D9366447-AD40-4AD6-BC7A-F8A02CD000AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9366447-AD40-4AD6-BC7A-F8A02CD000AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9366447-AD40-4AD6-BC7A-F8A02CD000AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADFED1B-EAEF-40B1-9399-EC26982E6AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADFED1B-EAEF-40B1-9399-EC26982E6AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADFED1B-EAEF-40B1-9399-EC26982E6AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADFED1B-EAEF-40B1-9399-EC26982E6AE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{8C8EBF4F-7D2F-4266-8AFF-C3D7215B0B2E} = {3620311E-5108-4E65-ADAE-C8AD256F1CB7}
 		{948476F5-38AC-4F21-8EB2-0A42DB05E363} = {AD4D8414-FFA5-4751-AAED-71916552D12C}
 		{D9366447-AD40-4AD6-BC7A-F8A02CD000AD} = {742A82BA-0E0C-4E47-8B69-D4542F91F2DD}
+		{3ADFED1B-EAEF-40B1-9399-EC26982E6AE3} = {9022D331-3FD6-4A3D-8FFC-0B140B4F3699}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E5E1722-C1A8-40CD-A50F-FA304F6E4CF9}

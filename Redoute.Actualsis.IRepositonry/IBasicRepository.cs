@@ -18,7 +18,7 @@ namespace Redoute.Actualsis.IRepositonry
         /// 获取 实体IQueryable 对象 
         /// </summary>
         /// <returns></returns>
-        IQueryable<TEntity> Query();
+        IQueryable<TEntity> QueryAsync();
 
         /// <summary>
         /// 根据条件获取 实体IQueryable 对象 
