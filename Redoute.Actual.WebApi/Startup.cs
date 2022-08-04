@@ -34,9 +34,9 @@ namespace Redoute.Actual.WebApi
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             //返回json  大小写
-            services.AddMvc().AddJsonOptions(op => op.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver());
+            //services.AddMvc().AddJsonOptions(op => op.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver());
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             // 注入仓储
             //services.AddSingleton(typeof(Actualsis.IRepositonry.IBasicRepository<>), typeof(Actualsis.Repositonry.BasicRepository<>));
